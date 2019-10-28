@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "My Website"
 output: 
   html_document:
     toc: true
@@ -7,6 +7,66 @@ output:
     theme: journal
 ---
 
-# This is my awesome website
+## Weijia Xiong
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+<img src="image/photo1.jpg" style="width:50%">
+
+### EDUCATION
+**COLUMBIA UNIVERSITY MAILMAN SCHOOL OF PUBLIC HEALTH, New York, NY**
+
+Master of Science, Biostatistics, expected May 2021
+
+* Relevant Courses: Biostatistics Method, Data Science, Probability, Epidemiology.
+
+**EAST CHINA NORMAL UNIVERSITY, Shanghai, China**
+
+Bachelor of Science, Statistics, received June 2019
+
+**UNIVERSITY OF CALIFORNIA AT LOS ANGELES, Los Angeles, CA **
+
+Summer School, Statistics, Aug-Sep, 2017	
+
+### REGULAR EXPERIENCE
+**Roche	Shanghai, China**
+
+*SPA(Statistical Programming Analysis) Intern*                     July-Dec, 2018
+
+* Participated in the development of an AutoReport RShiny app to streamline regulatory reporting process and integrate all related data files/documents in a one-stop shop; this app, evaluated highly by the global leader at present, has been online in the company and used. 
+
+* Completed the design of the GitHub web pages for team projects.
+
+* Assisted the team for the user acceptance testing (UAT).
+
+**Shanghai Shucui Big Data Technology Co., Ltd. Shanghai, China **
+
+*Course Construction Team Member Apr-Nov, 2018*
+
+* Cooperated with the team members to finish the preliminary statistical analysis, the time series analysis, and the course design and courseware preparation for Principle and Application of Big Data Technology.
+
+*	Use R to generate html & pdf courseware involving theoretical statistical knowledge and real case analysis.
+
+**Ping An Insurance Company of China, Shanghai Branch  Shanghai, China**  
+
+*Data Analyst July-Aug, 2017*
+
+*	Surveyed and assessed the performances of group insurance projects and did the data analysis for the team-leader to readjust strategic guidelines for the next quarter.  
+
+*	Gathered information about over 1,500 banks throughout Shanghai and completed one statistical report on distributions of different types of banks.
+
+### RESEARCH EXPERIENCE
+
+*Research Leader*
+
+*	Research on a New Method for Predicting the Correlation Between MicroRNA and Human Diseases.     Feb, 2018
+
+*	Research on the Application of MS-EGARCH Model in the Fluctuation of Offshore RMB Currency Exchange Rate.  May, 2017-May, 2018
+
+
+### VOLUNTEER EXPERIENCE
+*	The 10th China R Conference & Data Science Conference of East China, Volunteer.
+
+*	Student Union Department of Secretary, ECNU, Excellent Student Cadre.
+
+### SKILLS
+Strong knowledge of R, Python, SAS, MS Office.
+
