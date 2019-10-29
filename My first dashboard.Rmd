@@ -32,7 +32,7 @@ instacart %>%
   filter(count >= 10000) %>%  #more than 10000 items ordered
   plot_ly(x = ~ reorder(aisle,desc(count)), y = ~count, color = ~aisle ,type = "bar") %>% 
   layout(
-    title = "The Number of Items ordered in Each Aisle",
+    title = "The Number of Items Ordered in Each Aisle",
     xaxis = list(title = "Each aisle"),
     yaxis = list(title = "Count")
     )
@@ -46,16 +46,16 @@ Column {data-width=350}
 
 ```{r}
 instacart %>%
-  filter(aisle %in% c("fresh vegetables","milk","packaged cheese","eggs","soy lactosefree")) %>% 
-  group_by(order_hour_of_day,aisle) %>%
+  filter(department %in% c("produce","bakery","dairy eggs","beverages","pantry")) %>% 
+  group_by(order_hour_of_day,department) %>%
   summarise(
     count = n()
     ) %>% 
   plot_ly(
-  x = ~order_hour_of_day, y = ~count, color = ~aisle, type = "scatter", mode = "line"
+  x = ~order_hour_of_day, y = ~count, color = ~department, type = "scatter", mode = "line"
   ) %>% 
   layout(
-    title = "Order Hour of Day of Different Aisle",
+    title = "Order Hour of Day of Different Department",
     xaxis = list(title = "Order Hour of Day"),
     yaxis = list(title = "Count")
     )
@@ -69,7 +69,7 @@ instacart %>%
   filter(department == "bakery") %>% 
   plot_ly(
   x = ~aisle, y = ~order_hour_of_day, type = "box", color = ~aisle
-  )%>% 
+  ) %>% 
   layout(
     title = "Order Hour of Day for Bakery Department",
     xaxis = list(title = "Aisle of bakery"),
