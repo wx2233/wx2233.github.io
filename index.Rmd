@@ -12,3 +12,6 @@ This is Weijia Xiong's github page.
 
 ## Resume
 Here is my resume page: [Resume](https://wx2233.github.io/resume.html)
+
+## Dashboard
+I have created some plots on dashboard: [Dashboard](https://wx2233.github.io/My-first-dashboard.html)
