@@ -1,5 +1,5 @@
 ---
-title: "My first dashboard "
+title: "My dashboard "
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
