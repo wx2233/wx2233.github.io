@@ -46,17 +46,18 @@ Column {data-width=350}
 
 ```{r}
 instacart %>%
-  group_by(department) %>%
+  filter(aisle %in% c("fresh vegetables","milk","packaged cheese","eggs","soy lactosefree")) %>% 
+  group_by(order_hour_of_day,aisle) %>%
   summarise(
-    reordered_ratio = sum(reordered)/n()
+    count = n()
     ) %>% 
   plot_ly(
-  x = ~department, y = ~reordered_ratio, type = "scatter", mode = "lines"
+  x = ~order_hour_of_day, y = ~count, color = ~aisle, type = "scatter", mode = "line"
   ) %>% 
   layout(
-    title = "Reordered Ratio of Each Department",
-    xaxis = list(title = "Department"),
-    yaxis = list(title = "Reordered ratio")
+    title = "Order Hour of Day of Different Aisle",
+    xaxis = list(title = "Order Hour of Day"),
+    yaxis = list(title = "Count")
     )
 
 ```
