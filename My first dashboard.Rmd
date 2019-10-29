@@ -15,20 +15,10 @@ library(plotly)
 ```
 
 ```{r}
-weather_df =
-  rnoaa::meteo_pull_monitors(
-    c("USW00094728", "USC00519397", "USS0023B17S"),
-    var = c("PRCP", "TMIN", "TMAX"), 
-    date_min = "2017-01-01",
-    date_max = "2017-12-31") %>%
-  mutate(
-    name = recode(id, USW00094728 = "CentralPark_NY", 
-                      USC00519397 = "Waikiki_HA",
-                      USS0023B17S = "Waterhole_WA"),
-    tmin = tmin / 10,
-    tmax = tmax / 10) %>%
-  select(name, id, everything())
+data("instacart")
+
 ```
+
 
 Column {data-width=650}
 -----------------------------------------------------------------------
@@ -36,11 +26,17 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
-weather_df %>% 
-  mutate(text_label = str_c('Date: ', date)) %>% 
-  plot_ly(
-    x = ~tmax, y = ~tmin, type = "scatter", mode = "markers",
-    color = ~name, text = ~text_label, alpha = 0.5)
+instacart %>%
+  group_by(aisle) %>%
+  summarize(count = n()) %>% 
+  filter(count >= 10000) %>%  #more than 10000 items ordered
+  plot_ly(x = ~ reorder(aisle,desc(count)), y = ~count, color = ~aisle ,type = "bar") %>% 
+  layout(
+    title = "The Number of Items ordered in Each Aisle",
+    xaxis = list(title = "Each aisle"),
+    yaxis = list(title = "Count")
+    )
+
 ```
 
 Column {data-width=350}
@@ -49,16 +45,36 @@ Column {data-width=350}
 ### Chart B
 
 ```{r}
-weather_df %>%
-  mutate(name = forcats::fct_reorder(name, tmax)) %>% 
-  plot_ly(x = ~name, y = ~tmax, color = ~name ,type = "box")
+instacart %>%
+  group_by(department) %>%
+  summarise(
+    reordered_ratio = sum(reordered)/n()
+    ) %>% 
+  plot_ly(
+  x = ~department, y = ~reordered_ratio, type = "scatter", mode = "lines"
+  ) %>% 
+  layout(
+    title = "Reordered Ratio of Each Department",
+    xaxis = list(title = "Department"),
+    yaxis = list(title = "Reordered ratio")
+    )
+
 ```
 
 ### Chart C
 
 ```{r}
-weather_df %>% 
-  plot_ly(x = ~date, y = ~tmax, color = ~name, type = "scatter", mode = "lines")
+instacart %>%
+  filter(department == "bakery") %>% 
+  plot_ly(
+  x = ~aisle, y = ~order_hour_of_day, type = "box", color = ~aisle
+  )%>% 
+  layout(
+    title = "Order Hour of Day for Bakery Department",
+    xaxis = list(title = "Aisle of bakery"),
+    yaxis = list(title = "Order hour of day")
+    )
+
 ```
 
 
