@@ -14,60 +14,67 @@ output:
 ### EDUCATION
 **COLUMBIA UNIVERSITY MAILMAN SCHOOL OF PUBLIC HEALTH, New York, NY**
 
-Master of Science, Biostatistics, expected May 2021
+Master of Science, Biostatistics, expected May 2021 | GPA: 3.9
 
-* Relevant Courses: Biostatistics Method, Data Science, Probability, Epidemiology.
+* Relevant Courses: Biostatistics Method, Statistical Inference, Statistical Computing, Data Science, Probability, Epidemiology
 
 **EAST CHINA NORMAL UNIVERSITY, Shanghai, China**
 
-Bachelor of Science, Statistics, received June 2019
+Bachelor of Science, Statistics, June 2019 | GPA: 3.6
 
 **UNIVERSITY OF CALIFORNIA AT LOS ANGELES, Los Angeles, CA **
 
 Summer School, Statistics, Aug-Sep, 2017	
 
-### REGULAR EXPERIENCE
-**Roche	Shanghai, China**
+### PROFESSIONAL EXPERIENCE
+**Roche	Shanghai, China**  July-Dec, 2018
 
-*SPA(Statistical Programming Analysis) Intern*                     July-Dec, 2018
+*Statistical Programming Analysis(SPA) Intern*               
 
-* Participated in the development of an AutoReport RShiny app to streamline regulatory reporting process and integrate all related data files/documents in a one-stop shop; this app, evaluated highly by the global leader at present, has been online in the company and used. 
+* Participated in development of AutoReport RShiny app to streamline regulatory reporting process and integrate all related data files and documents in a one-stop shop; this app, evaluated highly by department global leader, is currently online and actively used
 
-* Completed the design of the GitHub web pages for team projects.
+* Completed design of GitHub web pages for team projects
 
-* Assisted the team for the user acceptance testing (UAT).
+* Assisted team for with user acceptance testing (UAT), including questionnaire creation, data collection and final review
 
-**Shanghai Shucui Big Data Technology Co., Ltd. Shanghai, China **
 
-*Course Construction Team Member Apr-Nov, 2018*
+**Shanghai Shucui Big Data Technology Co., Ltd. Shanghai, China **  Apr-Nov, 2018
 
-* Cooperated with the team members to finish the preliminary statistical analysis, the time series analysis, and the course design and courseware preparation for Principle and Application of Big Data Technology.
+*Course Construction Team Member*
 
-*	Use R to generate html & pdf courseware involving theoretical statistical knowledge and real case analysis.
+* Cooperated with team members to finish preliminary statistical analysis, time series analysis, course design, and courseware preparation for Principle and Application of Big Data Technology
 
-**Ping An Insurance Company of China, Shanghai Branch  Shanghai, China**  
+* Used R to generate html & pdf courseware involving theoretical statistical knowledge and real case analysis
 
-*Data Analyst July-Aug, 2017*
 
-*	Surveyed and assessed the performances of group insurance projects and did the data analysis for the team-leader to readjust strategic guidelines for the next quarter.  
+**Ping An Insurance Company of China, Shanghai Branch  Shanghai, China**  July-Aug, 2017 
 
-*	Gathered information about over 1,500 banks throughout Shanghai and completed one statistical report on distributions of different types of banks.
+*Data Analyst*
+
+* Surveyed and assessed performances of group insurance projects and conducted data analysis for team-leader to readjust strategic guidelines for next quarter
+
+* Gathered information about 1,500 banks throughout Shanghai and completed statistical report on distributions of different types of banks
+
+* Utilized excel to organize, clean and review data
+
 
 ### RESEARCH EXPERIENCE
 
+**Data Science Camp, China Academy of Sciences**					  Feb, 2018
+
 *Research Leader*
 
-*	Research on a New Method for Predicting the Correlation Between MicroRNA and Human Diseases.     Feb, 2018
+* Conducted research on a New Method for Predicting the Correlation Between MicroRNA and Human Diseases   
 
-*	Research on the Application of MS-EGARCH Model in the Fluctuation of Offshore RMB Currency Exchange Rate.  May, 2017-May, 2018
+**Department of Statistics, East China Normal University** 	 May, 2017-May, 2018  
 
+*Research Leader*
 
-### VOLUNTEER EXPERIENCE
-*	The 10th China R Conference & Data Science Conference of East China, Volunteer.
+*	Conducted research on Application of MS-EGARCH Model in the Fluctuation of Offshore RMB Currency Exchange Rate
 
-*	Student Union Department of Secretary, ECNU, Excellent Student Cadre.
 
 ### SKILLS
-Strong knowledge of R, Python, SAS, MS Office.
+R, Python, MATLAB, SAS, MS Office (all advanced)
+
 
 
