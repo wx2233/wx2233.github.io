@@ -9,7 +9,8 @@ output:
 
 ## Weijia Xiong
 
-<img src="image/photo1.jpg" style="width:50%">
+**Resume(pdf) can be downloaded here**
+<a href="https://wx2233.github.io/pdf/WeijiaXiong-Resume.pdf" target="_blank">PDF</a>
 
 ### EDUCATION
 **COLUMBIA UNIVERSITY MAILMAN SCHOOL OF PUBLIC HEALTH, New York, NY**

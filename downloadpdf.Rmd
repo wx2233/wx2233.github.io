@@ -5,4 +5,11 @@ output:
 ---
 
 
-<a href="wx2233.github.io/pdf/WeijiaXiong-Resume.pdf" target="_blank">PDF.</a>
+<a href="wx2233.github.io/pdf/WeijiaXiong-Resume.pdf" target="_blank">PDF</a>
+
+
+
+If the embedded PDF is not displayed properly, 
+<a href="wx2233.github.io/pdf/WeijiaXiong-Resume.pdf" target="_blank">
+
+please click here.</a> <embed src="wx2233.github.io/pdf/WeijiaXiong-Resume.pdf" width="1000px" height="800px" />

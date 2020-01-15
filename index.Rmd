@@ -22,6 +22,6 @@ Email: wx2233@cumc.columbia.edu
 
 You can find me in [Linkedin](https://www.linkedin.com/in/weijia-xiong-047945190/)
 
-## Dashboard
-I have created some plots on dashboard: [Dashboard](https://wx2233.github.io/My-first-dashboard.html)
+## Project
+My project for **Vehicle Collision in New York City** can be found here: [Project](https://wx2233.github.io/p8105_final_project/)
 
