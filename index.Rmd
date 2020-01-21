@@ -1,5 +1,5 @@
 ---
-title: "My Website"
+title: "Weijia Xiong"
 output: 
   html_document:
     toc: true
@@ -9,8 +9,9 @@ output:
 
 <img src="image/photo1.jpg" style="width:50%">
 
-## Introduction
-This is Weijia Xiong's github page.
+## Current 
+2019 -- present    &nbsp;  M.S.  &nbsp;  Department of Biostatistics, Columbia University
+
 
 ## Resume
 Here is my resume page: [Resume](https://wx2233.github.io/resume.html)
