@@ -17,12 +17,12 @@ output:
 Here is my resume page: [Resume](https://wx2233.github.io/resume.html)
 
 ## Contact
-Tel: (332)-207-5898
+Tel: (332)-207-5898/ (+86)15900930235
 
 Email: wx2233@cumc.columbia.edu
 
 You can find me in [Linkedin](https://www.linkedin.com/in/weijia-xiong-047945190/)
 
 ## Project
-My project for **Vehicle Collision in New York City** can be found here: [Project](https://wx2233.github.io/p8105_final_project/)
+My shiny dashboard project for **Vehicle Collision in New York City** can be found here: [Project](https://wx2233.github.io/p8105_final_project/)
 
